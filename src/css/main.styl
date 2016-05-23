@@ -280,10 +280,48 @@ a
 .sidebar
   width: 25.6%
 
-.device__link, .device__icon, .device__text, .device__title, .device__cost
+.device__item
+  position: relative
+  padding: 18px 50px 25px 18px
+  border-bottom: 1px solid #e7e7e7
+
+
+.device__icon, .device__text
   display: inline-block
   vertical-align: middle
 
+.device__link
+  font-size: 0
+
+.device__icon
+  width: 15%
+  position: relative
+  max-height: 30px
+
+.device__icon-pic
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  margin: auto
+
+.device__text
+  padding-left: 20px
+  width: 85%
+  font-size: 15px
+  font-family: "helvetica roman"
+  color: #2e2e2e
+
+.device__cost
+  position: absolute
+  right: 23px
+  line-height: 16px
+  font-size: 14px
+  top: 50%
+  margin-top: -8px
+  color: #969696
+  font-family: "helvetica medium"
 
 .content
   width: 74.4%
